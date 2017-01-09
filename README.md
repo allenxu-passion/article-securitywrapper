@@ -95,7 +95,7 @@ SDK中提供了针对SharedPreferences存储类型的加密解密方式，我们
 
 将它运行到一个root的Android测试机上，并使用R.E.Explorer工具查看存储，可见数据已经过了加密存储，并能够正确的解密并获得原始数据。SQLite数据库对存储本身进行了加密，因而加密后，通过工具(android内置查看器或SQLite Expert Professional查看工具)已无法打开db文件。
 
-
+![img1](/imgs/2425324-5c8d0d2bdb53fc07.png)
 
 ## 总结
 本文主要讨论了Android设备数据存储安全问题，重点关注于针对一个已有的、非安全存储的移动应用，如何将其加固为一个达到安全存储结果的应用。欢迎讨论，互相学习。
